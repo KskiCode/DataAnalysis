@@ -1,0 +1,31 @@
+I found this dataset on kaggle and tried some data analysis on it basically for practice, also some visualization. Below you can find the information from the Kaggle dataset.
+
+> Context
+This dataset consists of all Netflix original films released as of June 1st, 2021. Additionally, it also includes all Netflix documentaries and specials. The data was webscraped off of this Wikipedia page, which was then integrated with a dataset consisting of all of their corresponding IMDB scores. IMDB scores are voted on by community members, and the majority of the films have 1,000+ reviews.
+
+-> Content
+Included in the dataset is (columns):
+# Title of the film
+# Genre of the film
+# Original premiere date
+# Runtime in minutes
+# IMDB scores (as of 06/01/21)
+# Languages currently available (as of 06/01/21)
+
+-> Acknowledgements
+Thank you to Nakul Lakhotia, whose article I used as a reference to scrape the Wikipedia tables. Here is the article I used. 
+
+Link to dataset on kaggle: https://www.kaggle.com/luiscorter/netflix-original-films-imdb-scores
+
+-> Inspiration
+I originally planned on using this data solely to make a public dashboard in Tableau, but I thought I would upload it to Kaggle in case anyone was interested in using this data. Integrating IMDB scores with this dataset was a pain, so I hope someone is able to make interesting correlations between the scores and other facets of the data.
+
+
+
+-> Analysis Questions
+
+# Top 10 movies(title) by rating? / Worst 10 movies(title) by rating? (X)
+    # Genre of these top movies?
+# Which genre has the biggest share? (X)
+# Average runtime of movies in each genre? (X)
+# Is there a correlation between runtime and IMDB Score? (X)
