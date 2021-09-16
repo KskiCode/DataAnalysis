@@ -29,3 +29,7 @@ I originally planned on using this data solely to make a public dashboard in Tab
 # Which genre has the biggest share? (X)
 # Average runtime of movies in each genre? (X)
 # Is there a correlation between runtime and IMDB Score? (X)
+
+-> Adding some additonal question (16.09.2021)
+
+# Taking a look at the months: Which month has most of the releases?

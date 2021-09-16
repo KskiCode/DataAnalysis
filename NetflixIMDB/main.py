@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 
 movies = pd.read_csv('./data/NetflixOriginals.csv', encoding="ISO-8859-1")
@@ -33,4 +32,13 @@ plt.show()
 # Is there a correlation between runtime and IMDB Score
 print(movies.corr())
 movies.plot(kind='scatter', x='IMDB Score', y='Runtime', color='red')
+plt.show()
+
+# create new column for premiere with to_datetime()
+movies['PremiereDate'] = pd.to_datetime(movies['Premiere'])
+movies['year'] = movies['PremiereDate'].dt.year
+movies['month'] = movies['PremiereDate'].dt.month
+
+movies.month.value_counts().plot(kind='bar', xlabel='month', ylabel='No. of movies premiered', 
+                                title='No of movies released by month', grid=True)
 plt.show()
