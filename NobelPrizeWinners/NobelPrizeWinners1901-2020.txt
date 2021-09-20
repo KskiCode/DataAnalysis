@@ -1,0 +1,42 @@
+Source: https://www.kaggle.com/bahramjannesarr/nobel-prize-from-1901-till-2020
+
+Context
+The Nobel Prize is a set of annual international awards bestowed in several categories by Swedish and Norwegian institutions in recognition of academic, cultural, or scientific advances. The will of the Swedish chemist, engineer, and industrialist Alfred Nobel established the five Nobel prizes in 1895. The prizes in Chemistry, Literature, Peace, Physics, and Physiology or Medicine were first awarded in 1901. The prizes are widely regarded as the most prestigious awards available in their respective fields.
+
+Between 1901 and 2020, the Nobel Prizes and the Prize in Economic Sciences were awarded to 949 people . The Nobel Prize is an international award administered by the Nobel Foundation in Stockholm, Sweden, and based on the fortune of Alfred Nobel, Swedish inventor and entrepreneur. In 1968, Sveriges Riksbank established The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, founder of the Nobel Prize. Each Prize consists of a medal, a personal diploma, and a cash award.
+
+A person or organization awarded the Nobel Prize is called Nobel Laureate. The word "laureate" refers to being signified by the laurel wreath. In ancient Greece, laurel wreaths were awarded to victors as a sign of honor.
+
+Content
+This dataset includes a record for every individual that was awarded the Nobel Prize since 1901.
+
+Acknowledgements
+This dataset is available on Nobel prize api.
+
+Inspiration
+Which country has won the most prizes in each category?
+
+Columns:
+this file contains 14 columns about Nobel prize winner information.
+
+firstname
+surname
+borncountrycode
+diedcountrycode
+gender
+year
+category
+share (with how many other winners the price was shared?)
+nameofuniversity
+cityofuniversity
+countryofuniversity
+born_month
+age
+agegetprize
+
+
+Questions:
+# compare male v. female winners -> pie chart
+# name of university with most winners?
+# what country has the most winners?
+# average age of winners when they won the prize?
